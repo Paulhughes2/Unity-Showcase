@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - Destroyable
+  - PlayerGun
   layers:
   - Default
   - TransparentFX

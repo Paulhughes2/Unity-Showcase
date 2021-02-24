@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     public float speed;
     float spawnTime;
     public float lifeTime;
+    public int dmg;
+    Color col;
 
     // Start is called before the first frame update
     void Start()
@@ -33,9 +35,16 @@ public class Bullet : MonoBehaviour
     
         if(collision.gameObject.tag == "Destroyable")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Health>().TakeDamage(dmg);
             Destroy(gameObject);
         }
 
+    }
+
+    public void SetStats(int i, int j, Color c)
+    {
+        dmg = i;
+        speed = j;
+        GetComponent<Renderer>().material.color = c;
     }
 }
