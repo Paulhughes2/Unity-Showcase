@@ -74,11 +74,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\AI\AIMove.cs" />
     <Compile Include="Assets\Scripts\AI\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\LERP\Rewind.cs" />
+    <Compile Include="Assets\Scripts\LERP\StartRewind.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Shooting\Bullet.cs" />
     <Compile Include="Assets\Scripts\Shooting\BulletShoot.cs" />
     <Compile Include="Assets\Scripts\Shooting\Health.cs" />
     <Compile Include="Assets\Scripts\Shooting\ShootGun.cs" />
+    <Compile Include="Assets\Scripts\Time\TimeStuff.cs" />
     <Compile Include="Assets\Scripts\Weapon Swapper\WeaponSwap.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEngine">

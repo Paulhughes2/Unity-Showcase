@@ -56,8 +56,8 @@ public class AIMove : MonoBehaviour
                         {
                             if (hit.transform.tag == "Player")
                             {
-
-                                Destroy(hit.transform.gameObject);
+                                Debug.Log("PEW PEW");
+                                //Destroy(hit.transform.gameObject);
 
                             }
                         }
