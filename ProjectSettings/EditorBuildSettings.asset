@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 5d70ad950ccf61147ba4980af7369c8c
+  - enabled: 1
+    path: Assets/Scenes/AI.unity
+    guid: d8d9864eae821ec49bd1025d6ca9f8e9
+  - enabled: 1
+    path: Assets/Scenes/Lerp.unity
+    guid: 9eae472c78ec4f048b492b6f96daafb1
+  - enabled: 1
+    path: Assets/Scenes/Shooting.unity
+    guid: 5e3c69418d693104d8f913c5ced58e86
+  - enabled: 1
+    path: Assets/Scenes/Testing.unity
+    guid: 4e989f30dd48f4f44bbb70dc8a0a3cee
+  - enabled: 1
+    path: Assets/Scenes/Time.unity
+    guid: c28d851d44c1e18418b67cb9ca2c1966
   m_configObjects: {}

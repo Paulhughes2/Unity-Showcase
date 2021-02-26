@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endMarker: {fileID: 1930379145}
-  speed: 5
+  speed: 1
 --- !u!54 &154818453
 Rigidbody:
   m_ObjectHideFlags: 0
