@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Billboard.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -84,6 +83,7 @@
     <Compile Include="Assets\Scripts\Shooting\RaycastGun.cs" />
     <Compile Include="Assets\Scripts\Shooting\ShootGun.cs" />
     <Compile Include="Assets\Scripts\Time\TimeStuff.cs" />
+    <Compile Include="Assets\Scripts\UI\Billboard.cs" />
     <Compile Include="Assets\Scripts\UI\UIControl.cs" />
     <Compile Include="Assets\Scripts\Weapon Swapper\WeaponSwap.cs" />
     <Compile Include="Assets\flashLight.cs" />
