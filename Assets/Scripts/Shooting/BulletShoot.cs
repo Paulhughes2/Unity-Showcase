@@ -13,6 +13,7 @@ public class BulletShoot : MonoBehaviour
     int damage, speed;
     Color col;
     public TMP_Text ammoCounter;
+    public GameObject GM;
 
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,10 @@ public class BulletShoot : MonoBehaviour
                     ammoCount -= magAmount;
                 }
             }
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            GM.GetComponent<ResetTargets>().ResetOriginalPos();
         }
     }
 
