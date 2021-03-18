@@ -42,6 +42,7 @@ public class ResetTargets : MonoBehaviour
         {
             //Debug.Log(g.transform);
             originalPos[i] = targets[i].transform;
+            originalPos[i].gameObject.SetActive(true);
             Debug.Log(originalPos[i].transform.position);
         }
         targetsSet = true;

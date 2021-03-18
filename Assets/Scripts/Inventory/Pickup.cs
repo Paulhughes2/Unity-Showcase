@@ -31,9 +31,7 @@ public class Pickup : MonoBehaviour
                     Debug.Log("Picked up " + tempGO.name);
                     this.gameObject.GetComponent<Inventory>().AddToInventory(tempGO);
                     
-                    
                     tempGO.SetActive(false);
-                    
                 }
             }
         }

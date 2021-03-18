@@ -50,7 +50,8 @@ public class Health : MonoBehaviour
     {
         if (currentHP <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
         else
         {
