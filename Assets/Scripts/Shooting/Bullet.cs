@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
         spawnTime = Time.time;
         rb = gameObject.GetComponent<Rigidbody>();
 
-        rb.AddForce(transform.up * speed);
+        rb.AddForce(transform.forward * speed);
     }
 
     // Update is called once per frame

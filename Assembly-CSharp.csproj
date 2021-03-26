@@ -53,6 +53,9 @@
     <UnityVersion>2020.1.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\Scripts\Time\TimeStuff.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -85,6 +88,7 @@
     <Compile Include="Assets\Scripts\LERP\StartRewind.cs" />
     <Compile Include="Assets\Scripts\LERP\Rewind.cs" />
     <Compile Include="Assets\Scripts\Shooting\BulletShoot.cs" />
+    <Compile Include="Assets\BossBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

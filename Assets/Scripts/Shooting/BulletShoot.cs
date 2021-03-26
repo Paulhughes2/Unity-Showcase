@@ -13,7 +13,7 @@ public class BulletShoot : MonoBehaviour
     int damage, speed;
     Color col;
     public TMP_Text ammoCounter;
-    public GameObject GM;
+   // public GameObject GM;
 
     // Start is called before the first frame update
     void Start()
@@ -64,7 +64,7 @@ public class BulletShoot : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.C))
         {
-            GM.GetComponent<ResetTargets>().ResetOriginalPos();
+          //  GM.GetComponent<ResetTargets>().ResetOriginalPos();
         }
     }
 
